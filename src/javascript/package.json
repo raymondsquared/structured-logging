@@ -1,0 +1,21 @@
+{
+  "name": "structured-logging",
+  "version": "1.0.0",
+  "description": "Structured logging",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "raymond",
+  "license": "ISC",
+  "dependencies": {
+    "pino": "^8.14.1",
+    "winston": "^3.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
